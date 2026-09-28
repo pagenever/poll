@@ -41,6 +41,18 @@ header {
 }
 
 
+.image-container {
+    display: flex;
+    justify-content: center; /* दाएं-बाएं से सेंटर करने के लिए */
+    width: 100%;             /* ताकि बॉक्स को पूरी चौड़ाई मिले */
+}
+
+.image-container img {
+   
+    height: auto;
+}
+
+
 header h1 {
     margin: 0;
     font-size: 22px;
