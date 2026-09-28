@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport"
+      content="width=device-width, initial-scale=1.0">
+
+<title>Yaniv Consultancy Poll</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<header>
+
+    <div class="logo">
+        YC
+    </div>
+
+    <div>
+        <h1>Yaniv Consultancy</h1>
+        <p>Public Poll</p>
+    </div>
+
+</header>
+
+
+<main>
+
+<section class="poll-card">
+
+    <h2>Poll Question</h2>
+
+    <p class="question">
+        Sample Poll Question
+    </p>
+
+
+    <form id="pollForm">
+
+        <label class="option">
+            <input
+                type="radio"
+                name="poll"
+                value="Option A"
+                required>
+            <span>Option A</span>
+        </label>
+
+
+        <label class="option">
+            <input
+                type="radio"
+                name="poll"
+                value="Option B">
+            <span>Option B</span>
+        </label>
+
+
+        <label class="option">
+            <input
+                type="radio"
+                name="poll"
+                value="Option C">
+            <span>Option C</span>
+        </label>
+
+
+        <label class="option">
+            <input
+                type="radio"
+                name="poll"
+                value="Option D">
+            <span>Option D</span>
+        </label>
+
+
+        <button type="submit">
+            Submit Vote
+        </button>
+
+    </form>
+
+
+    <div id="message"></div>
+
+
+    <button
+        class="result-btn"
+        onclick="showResults()">
+        View Results
+    </button>
+
+
+    <div id="results"></div>
+
+</section>
+
+</main>
+
+
+<footer>
+
+    <p>
+        © 2026 Yaniv Consultancy
+    </p>
+
+    <p>
+        This is an independent public poll.
+    </p>
+
+</footer>
+
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
